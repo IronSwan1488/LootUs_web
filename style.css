@@ -273,25 +273,21 @@ main .main_about{
 }
 /* Контакт с нами */
 
-.contact_form{
-	padding: 100px 0 100px 0;
-
-}
 .contact_form h1,p{
 	text-align: center;
-	
 }
 .contact_form h1{
 	color: #000;
 	margin-bottom: 10px;
 }
-form p{
-	text-align: left;
-}
 .contact_wrapper{
-	width: 753px;
-	margin: 0 auto;
-	color: #636363;
+	text-align: center;
+	display: grid;
+	grid-gap: 0px;
+}
+.contact_wrapper p1{
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 .contact_wrapper .line{
 	margin-bottom: 30px;
@@ -299,21 +295,34 @@ form p{
 .red{
 	color: red;
 }
-.form_inputs{
-	display: flex;
-	margin-top: 40px;
+.form_input1{
+	margin-right: 62.5%;
+}
+.form_input1 p{
+	margin-left: 80%;
+}
+.form_input2{
+	margin-right: 62.5%;
+}
+.form_input2 p{
+	margin-left: 80%;
+}
+form p{
+	text-align: left;
+	margin-left: 30%;
 }
 input{
-	width: 360px;
+	width: 250px;
 	height: 40px;
 	font-size: 20px;
 	margin-bottom: 30px;
+	margin-left: 70px;
 }
 input:first-of-type{
-	margin-right: 23px;
+	margin-left: 80%;
 }
 textarea{
-	width: 100%;
+	width: 40%;
 	height: 163px;
 }
 input, textarea{
@@ -323,6 +332,7 @@ input, textarea{
 .button_block{
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 62.5%;
 }
 input[type=submit] {
 	width: 165px;
@@ -341,6 +351,7 @@ h1:after{
 	padding-top: 30px;
 	border-bottom: 3px solid #4169E1;
 }
+
 
 /* Футер */
 
@@ -471,66 +482,42 @@ h1:after{
 
 /* Письмо */
 
+	.contact_wrapper{
+		flex-direction: column;
+	}
+	.contact_form h1{
+		font-size: 20px;
+	}
+	.contact_form p1{
+		font-size: 14px;
+	}
 	input{
-		width: 100px;
-		height: 30px;
+		width: 60px;
+		height: 20px;
 		font-size: 14px;
 		margin-bottom: 30px;
 	}
 	.form_inputs p{
 		margin-left: 10%;
 	}
-	input:first-of-type{
-		margin-right: 23px;
-	}
 	textarea{
-		width: 59%;
-		height: 160px;
+		width: 40%;
+		height: 110px;
 		margin-left: 16.5%;
 	}
-	input, textarea{
-		border: 1px solid #999999;
-		margin-top: 5px;
-	}
 	.text_area p{
-		margin-left: 15.5%;
+		margin-left: 16%;
 	}
-	.contact_wrapper h1{
-		margin-right: 12%;
+	.contact_form h1{
+		font-size: 20px;
 	}
-	.contact_wrapper p1{
+	.contact_form p1{
 		font-size: 14px;
-		text-align: center;
 	}
 	.button_block{
 		margin-right: 20.9%;
 	}
-	/*.button_block{
-		display: flex;s
-		justify-content: flex-end;
-	}
-	input[type=submit] {
-		width: 165px;
-		height: 40px;
-		background: #4169E1;
-		color: #fff;
-		margin-right: 0;
-		margin-top: 20px;
-	}
 
-	h1:after{
-		content: "";
-		display: block;
-		margin: 0 auto;
-		width: 100px;
-		padding-top: 30px;
-		border-bottom: 3px solid #4169E1;
-	}
-	.contact_wrapper h1{
-		text-align: center;
-		font-size: 25px;
-
-	}*/
 }
 
 
