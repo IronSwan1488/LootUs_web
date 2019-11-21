@@ -192,13 +192,12 @@ main .main_about{
 .services_card h4{
 	margin-top: 20px; 
 	margin-bottom: 115px;
+	margin-left: 39%;
 }
 .services_card{
-	margin-left: 364px;
- }
- .services_cards img:hover{
- 	opacity: 0.3;
- }
+	margin-left: 68%;
+}
+
 /* Клиенты */
 
 .main_clients{
