@@ -192,10 +192,10 @@ main .main_about{
 .services_card h4{
 	margin-top: 20px; 
 	margin-bottom: 115px;
-	margin-left: 39%;
+	padding-left: 90px;
 }
 .services_card{
-	margin-left: 68%;
+	margin-left: 94%;
 }
 
 /* Клиенты */
