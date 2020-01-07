@@ -46,7 +46,7 @@ nav{
 	font-weight: bold;
 }
 .topnav a:hover{
-	border-bottom: 3px solid #4169E1;
+	border-bottom: 3px solid #F73600;
 }
 .topnav .icon{
 	display: none;
@@ -74,7 +74,7 @@ main .main_welcome h1:after{
 	display: none;
 }
 .mycompany{
-	color: #4169E1;
+	color: #F73600;
 	font-family: 'Big Shoulders Text', cursive;
 }
 .wrapper{
@@ -94,7 +94,7 @@ main .main_about{
 }
  .about_right h1{
 	display: inline-block;
-	border-bottom: 3px solid #4169E1;
+	border-bottom: 3px solid #F73600;
 	padding-bottom: 20px;
 	margin-left: 165px;
 }
@@ -336,7 +336,7 @@ input, textarea{
 input[type=submit] {
 	width: 165px;
 	height: 40px;
-	background: #4169E1;
+	background: #F73600;
 	color: #fff;
 	margin-right: 0;
 	margin-top: 20px;
@@ -348,7 +348,7 @@ h1:after{
 	margin: 0 auto;
 	width: 100px;
 	padding-top: 30px;
-	border-bottom: 3px solid #4169E1;
+	border-bottom: 3px solid #F73600;
 }
 
 
@@ -437,7 +437,8 @@ h1:after{
 		font-size: 25px;
 	}
 	.mw-100{
-		max-width: 100%;
+		width: 200px;
+		height: 350px;
 	}
 	.main_about{
 		flex-direction: column;
